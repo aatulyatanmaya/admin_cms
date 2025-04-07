@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "lms_db"; // 
+$dbname = "admin_cms"; // 
 
 try {
     // Create connection
@@ -17,7 +17,7 @@ try {
     }
 
     // Specify your table name here
-    $sql = "SELECT * FROM activity_logs"; //
+    $sql = "SELECT * FROM user"; //
     $result = $conn->query($sql);
 
     if ($result === false) {

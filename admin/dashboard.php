@@ -16,6 +16,28 @@ if(!isset($_SESSION['username']))
 	<title>Dashboard Admin</title>
 </head>
 <body>
+	<?php include'../include/nav.php';?>
+
+	<br>
+	<div class="container-fluid">
+
+		<div class="row">
+			
+			<div class="col-sm-4">
 <h1>Hi <?php echo $_SESSION['username']; ?> </h1>
+			</div>
+			<div class="col-sm-6">
+
+			</div>
+			<div class="col-sm-2">
+<a class="btn btn-danger" href="logout.php">Log out</a>
+			</div>
+		</div>
+<script type="text/javascript">
+	
+	alert("Happy To see You Again <?php echo $_SESSION['username']; ?>");
+
+
+</script>
 </body>
 </html>
