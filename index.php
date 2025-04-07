@@ -41,10 +41,10 @@ if(isset($_SESSION['username']))
             <h1 class="text-center"> User login page</h1>
         </div>
         <div class="col-sm-6">
-        <form>
+        <form action="login.php" method="post">
   <div class="form-group">
     <label for="exampleInputEmail1">Username</label>
-    <input name="username" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input name="username" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div class="form-group">
@@ -52,24 +52,25 @@ if(isset($_SESSION['username']))
     <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
   </div>
 
-  <a type="submit" href="admin/dashboard.php" class="btn btn-primary">Submit</a>
+  <button type="submit" class="btn btn-primary">Submit</button>
 </form></div>
 
     </div>
 </div>
 
-
+<div class="container bg-warning">
 
 <?php
 
 if(isset($_GET['error'])){
+
 echo"<p> invalid id and password</p>";
 } ?>
 
 <?php include'include/foot.php';?>
     
 
-
+</div>
 </form>
 
 </body>
