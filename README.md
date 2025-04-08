@@ -30,4 +30,4 @@ A modern and secure Content Management System (CMS) built with PHP and MySQL, fe
 
 1. Clone the repository to your local machine:
 ```bash
-git clone https://github.com/aatulyatanmaya/admin_cms/
+[git clone https://github.com/aatulyatanmaya/admin_cms/](https://github.com/aatulyatanmaya/admin_cms/tree/main)
