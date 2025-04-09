@@ -160,9 +160,9 @@ if (isset($_SESSION['username'])) {
                 alert('Please enter your username');
                 return false;
             }
-            // atleast contain 6 character in username
-            if(username.length < 6){
-                    alert("username should be atleast 6 characters")
+            // atleast contain 6 character in password
+            if(password.length < 6){
+                    alert("Password should have atleast 6 characters")
                     return false;
                 }
   
@@ -173,7 +173,6 @@ if (isset($_SESSION['username'])) {
             }
             
            
-
             return true;
 
         }
