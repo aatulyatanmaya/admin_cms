@@ -1,0 +1,28 @@
+Daily Blog Portal (folder)- By Shakti
+-Admin Folder
+  |-index.php
+  |-login.php
+  |-logout.php
+  |-dashboard.php
+  |-profile.php
+  |-settings.php
+  |-Blog_list.php
+
+-include folder
+  |-nav_user.php (include in user pages)
+  |-admin_nav.php (include on admin pages)
+  |-foot.php ( common for admin and user)
+
+-user Folder
+  |-index.php
+  |-login.php
+  |-logout.php
+  |-dashboard.php
+  |-profile.php
+  |-settings.php
+  |-Blog_post.php
+Outer file
+-index.php
+-Blog.php
+-contact.php
+-about.php
